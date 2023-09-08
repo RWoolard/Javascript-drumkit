@@ -1,0 +1,23 @@
+html { 
+    background: url(background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.keys {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+
+.A, .S, .D, .F, .G, .H, .J, .K, .L {
+
+    padding: 30px;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+  }
