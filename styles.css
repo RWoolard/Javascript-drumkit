@@ -14,10 +14,29 @@ html {
 }
 
 
-.A, .S, .D, .F, .G, .H, .J, .K, .L {
-
-    padding: 30px;
+.key {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    border: black;
+    height: 50px;
+    width: 50px;
+    border-style: solid;
+    padding: 22px;
+    margin: 8px;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
     color: white;
+    
   }
+
+  .instrument {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+    font-size: 15px;
+    width: 80px;
+  }
+
